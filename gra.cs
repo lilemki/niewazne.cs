@@ -295,7 +295,7 @@ namespace ConsoleApp4
         {
             Name = Names[random.Next(Names.Length)];
             Hp = level * 50;
-            Attack = level * 10;
+            Attack = level * 5;
             Coins = level * 10;
             Exp = level * 25;
         }
